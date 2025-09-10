@@ -17,7 +17,7 @@ def upload_to_catbox(file_path: str) -> str:
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: imag <file_path>")
+        print("Usage: fileora <file_path>")
         sys.exit(1)
     file_path = sys.argv[1]
     if not os.path.isfile(file_path):
